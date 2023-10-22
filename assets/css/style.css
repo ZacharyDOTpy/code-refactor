@@ -37,13 +37,19 @@ header div ul {
 }
 
 header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-block; 
 }
-
+/* moved margin from ul to a selector and added padding */
 a {
     color: #ffffff;
     text-decoration: none;
+    margin-left: 9px;
+    padding: 8px;
+}
+/* added a hover state to links */
+a:hover {
+    background-color: #d9dcd6;
+    color: #2a607c;
 }
 
 p {
